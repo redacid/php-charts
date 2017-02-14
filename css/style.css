@@ -1,0 +1,75 @@
+body {
+    background-color: #E2F2E2;
+}
+
+td {
+text-align: center;
+}
+
+div {
+text-align: left;
+}
+
+.title {
+font: 12pt sans-serif;
+font-variant: small-caps;
+/*margin-bottom: -10px;*/
+text-align: center;
+}
+
+.critical {
+background-color: #fd4949;
+margin: 2px 1px 2px 1px;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+border: 1px solid #888;
+font: 10pt sans-serif;
+font-variant: small-caps;
+}
+
+.warning {
+background-color: #c7ec55;
+margin: 2px 1px 2px 1px;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+border: 1px solid #888;
+font: 10pt sans-serif;
+font-variant: small-caps;
+}
+
+.ok {
+background-color: #0fc71e;
+margin: 2px 1px 2px 1px;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+border: 1px solid #888;
+/*font-family: sans-serif;*/
+font: 10pt sans-serif;
+font-variant: small-caps;
+}
+
+.menulink {
+background-color: #0fc71e;
+margin: 2px 1px 2px 1px;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+border: 1px solid #888;
+/*font-family: sans-serif;*/
+font: 10pt sans-serif;
+font-variant: small-caps;
+text-decoration:none;
+color : #000;
+}
+
+input[type="submit"] {
+    padding: 5 px;
+    height: 29px;
+    font: 10pt sans-serif;
+    font-variant: small-caps;
+    color: #000;
+    background: #0fc71e;
+    border: 1px solid #888;
+    border-radius: 5px;
+    outline: 0;
+}
+
